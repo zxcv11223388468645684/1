@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/*視窗背景色設定*/
+body {
+    background-color: rgb(204, 250, 211);
+    background-image: url(../img/3.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+/*連結顏色設定*/
+a {
+    color: rgb(170, 100, 43);
+}
+
+/*頁首,導覽,頁尾的共通設定*/
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 120px;
+    border: 1px solid rgb(140, 247, 158);
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(103, 175, 115);
+    margin: 0 10px;
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #78fcc5;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #9dff00;
+    color: #ff0000;
+}
+
+/*導覽樣式設定*/
+
+
+/*頁面標題設定*/
+h1 {
+    background-color: rgb(136, 241, 76);
+    color: rgb(17, 156, 110);
+    width: 300px;
+    padding: 30px;
+    margin: auto;
+    border: 5px solid;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #000000d7;
+    text-shadow: 10px 10px 10px #000000b7;
+}
+
+
+/*次標題設定*/
+h2 {
+    color: rgb(17, 156, 110);
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px dotted;
+    border-left: 10px solid;
+
+}
+
+/*小標題設定*/
+.h-sub {
+    padding: 10px;
+    background-color: rgb(138, 241, 164);
+    color: rgb(3, 142, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #07fc30 inset;
+}
+
+/*內容區塊邊框設定*/
+#contents {
+    width: 960px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 1px solid #03ac1f;
+    background-color: #c4f8becb;
+}
+
+/*「更多介紹」連結設定*/
+
+
+/*連結圖示設定*/
+
+
+/*區塊間分隔*/
+
+
+/*文繞圖設定*/
+.imgL {
+    float: left;
+    margin-right: 20px;
+}
+.imgR{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.imgRR{
+    border-radius: 200%;
+    float: left;
+    margin-right: 20px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*圓形圖片設定*/
+
+
+/*寵物相片定*/
+.photo {
+    width: 480px;
+    height: 350px;
+}
